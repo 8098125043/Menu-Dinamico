@@ -3,54 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parqueo</title>
+    <meta name="description" content="Bienvenido al sistema de estacionamiento PARKINSLOT en Santo Domingo, República Dominicana. Estaciona con seguridad y comodidad.">
+    <title>Parkinslot - Estacionamiento en Santo Domingo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="cabecera">
-    <h1 class="titulo">PARKINSLOT <img src="LP.png" alt=""></h1>
+    <header>
+        <h1>Parkinslot <img src="LP.png" alt="Logo Parkinslot"></h1>
     </header>
 
-   
-    <div class="nav-backgro">
-        <nav class="menu-principal  contenedorl">
-            <a href="#">Tarifas</a>
-            <a href="#">Reservas</a>
-            <a href="#">Destino</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contactanos</a>
-            <a href="#">Sobre Nosotros</a>
-        </nav>
-    </div>
-    
+    <nav>
+        <ul class="menu-principal">
+            <li><a href="tarifas.html">Tarifas</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="destino.html">Destino</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+            <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
 
-    <section class="central-part">
-       <div class="cont-part">
-        <h1 class="nameP">Welcome to your parking system.</h1>
-
-        <p><img src="map.png" alt="img map"> Santo Domingo. <span> Republica Dominicana</span></p>
-       </div>
-
+    <section class="imagen-parqueo">
+        <img src="img/garage.jpg" alt="Foto del Parqueo">
+        <div class="imagen-titulo">
+            <h1>Bienvenido a tu sistema de estacionamiento.</h1>
+            <p><img src="map.png" alt="Mapa de Santo Domingo"> Santo Domingo, <span>República Dominicana</span></p>
+        </div>
     </section>
-    
-   <section class="co">
-    <h2>Estaciona Con Seguridad</h2>
-    <p class="ce">Coche -  Camion - Motor</p>
 
-    <div class="img-cont">
-        <img src="img/sedan.png" alt="">
-        <img src="img/truck.png" alt="">
-        <img src="img/motorcycle.png" alt="">
+    <section class="estacionat">
+        <h2>Estaciona con Seguridad</h2>
+        <p class="ce">Coche - Camión - Motocicleta</p>
 
-    </div>
-   
-   </section>
+        <div class="img-cont">
+            <img src="img/sedan.png" alt="Coche">
+            <img src="img/truck.png" alt="Camión">
+            <img src="img/motorcycle.png" alt="Motocicleta">
+        </div>
+    </section>
 
-    <label for="comentario">Comentarios</label>
-    <textarea name="comentario" id="" cols="30" rows="10">deja aqui tus comentarios</textarea>
-   
-    
-    
+    <footer>
+        <label for="comentario">Comentarios</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10">Deja aquí tus comentarios</textarea>
+        <form action="reserva.html" method="post">
+            <button type="submit">Reserva Rápida</button>
+        </form>
+    </footer>
 </body>
 </html>
