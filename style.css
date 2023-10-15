@@ -5,6 +5,7 @@ body {
 }
 
 header {
+  width: 100%;
   border-style: outset;
   border-width: 15px;
 }
@@ -21,13 +22,14 @@ h1 {
   justify-content: space-around;
 }
 .estacionat{
+  width: 80%; 
+  margin: 0 auto; 
+  padding-top: 60px; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
   font-size: 20px;
+  font-style: italic;
+  color: blue;
   text-align: center;
-  border-style: solid;
-  border-color: blue;
-  border-width: 10%;
 }
 
 .menu-principal a {
@@ -55,12 +57,16 @@ h1 {
 
 .imagen-parqueo {
   position: relative;
-  width: 100%;
+  text-align: center;
 }
 
 .imagen-parqueo img {
-  width: 100%;
-  height: auto;
+  width: 70%; 
+  height: 300px; 
+  max-height: 50%; 
+  max-width: 100%; 
+  display: block; 
+  margin: 0 auto; 
   border: 3px solid #092d88;
 }
 
@@ -75,8 +81,10 @@ h1 {
 }
 
 .imagen-titulo h1 {
+  left: 20px;
+  width: 100%;
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -85,12 +93,14 @@ h1 {
 }
 
 .imagen-titulo p img {
-  max-width: 20%;
+  
+  max-width: 40px;
   height: auto;
 }
 
 .central-part {
-  background-image: url(imgg.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(imgg.webp);
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
