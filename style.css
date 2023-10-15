@@ -49,6 +49,25 @@ h1 {
 .menu-principal a:focus {
   color: blue;
 }
+/* Estilos para el menú desplegable */
+.menu-desplegable:hover .submenu {
+  display: block;
+  z-index: 1;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  z-index: 2;
+ color: black;
+}
+
+.submenu li {
+  padding: 5px;
+}
 
 .contenedorl {
   width: 83rem;
