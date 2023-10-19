@@ -1,7 +1,8 @@
 body {
-  background-color: aqua;
+  background-color: #ede6db;
   font-size: 16px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 header {
@@ -47,7 +48,7 @@ h1 {
 }
 
 .menu-principal a:focus {
-  color: blue;
+  color: #a9aae8;
 }
 /* Estilos para el menú desplegable */
 .menu-desplegable:hover .submenu {
@@ -58,7 +59,7 @@ h1 {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: hsl(192, 71%, 61%);
   list-style: none;
   padding: 0;
   z-index: 2;
@@ -89,6 +90,9 @@ h1 {
   border: 3px solid #092d88;
 }
 
+.imagen-parqueo H1{
+  font-family:cursive;
+}
 .imagen-titulo {
   position: absolute;
   top: 50%;
@@ -118,13 +122,12 @@ h1 {
 }
 
 .central-part {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(imgg.webp);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+  height: 200px;
+  background-image:url(imgg.webp);
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
+  background-size: 100px 100px;
+  background-repeat: repeat-x;
 }
 
 .nameP {
